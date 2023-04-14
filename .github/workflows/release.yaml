@@ -13,7 +13,7 @@ on:
         default: 'release'
       release_directory:
         required: true
-        default: '.'
+        default: 'pylity'
       version:
         required: false
         default: ''
@@ -31,7 +31,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  default:
+  Release:
     runs-on: ubuntu-latest
 
     # Limit branch:
@@ -66,6 +66,14 @@ jobs:
           create-pr-for-branch: ${{ inputs.create_pr_for_branch }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update poetry version
+        run: |
+          pip install poetry
+          poetry version ${{ steps.release.outputs.version }}
+          git add pyproject.toml
+          git commit -m "chore: update pyproject to ${{ steps.release.outputs.version }}"
+          git push
 
       - name: GitHub Release
         uses: ncipollo/release-action@v1

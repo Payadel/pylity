@@ -1,3 +1,11 @@
+.vscode
+.idea
+dist
+.pytest_cache
+.tox
+htmlcov
+.coverage
+poetry.lock
+**.pyc
 node_modules
 package-lock.json
-.idea
