@@ -1,11 +1,5 @@
-<h1 align="center">
-  <a href="">
-    <img src="" alt="Logo" width="100" height="100">
-  </a>
-</h1>
-
 <div align="center">
-  pylity
+  <h1>pylity</h1>
   <br />
   <a href="#getting-started"><strong>Getting Started »</strong></a>
   <br />
@@ -20,123 +14,59 @@
 <div align="center">
 <br />
 
-![GitHub](https://img.shields.io/github/license/Payadel/pylity)
-
-[![Pull Requests welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/Payadel/pylity/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
 [![code with love by Payadel](https://img.shields.io/badge/%3C%2F%3E%20with%20%E2%99%A5%20by-Payadel-ff1414.svg?style=flat-square)](https://github.com/Payadel)
+
+![GitHub](https://img.shields.io/github/license/Payadel/pylity)
+[![Pull Requests welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/Payadel/pylity/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
 
 </div>
 
-<details>
-<summary>Table of Contents</summary>
-
-- [About](#about)
-    - [Demo](#demo)
-    - [Built With](#built-with)
-- [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-- [Usage](#usage)
-    - [Documentation](#documentation)
-- [Known issues](#known-issues)
-- [CHANGELOG](#changelog)
-- [Features](#features)
-- [Roadmap](#roadmap)
-- [Support](#support)
-- [Used By](#used-by)
-- [FAQ](#faq)
-- [Project assistance](#project-assistance)
-- [Contributing](#contributing)
-- [Authors & contributors](#authors--contributors)
-- [Security](#security)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-- [Related](#related)
-
-</details>
 
 ## About
 
-> **[?]**
-> Provide general information about your project here.
-> Put a meaningful, short, plain-language description of:
-> What problem does it (intend to) solve?
-> What is the purpose of your project?
-> What this project is trying to accomplish and why it matters?
-> Why did you undertake it?
-> Describe the problem(s) this project solves.
-> Describe how this software can improve the lives of its audience.
-> Describe what sets this apart from related-projects.
-> You don't have to answer all the questions -- just the ones relevant to your project.
+The `pylity` package is a set of utility and common functions for Python.
+**pylity** means `Python Utility`.
 
-### Demo
+When we work on different projects, there are usually functions that are **common** between the projects. Functions that we generally call Utility or helpers or something like that. Functions that are **independent** and can be used in different places.
 
-**Screenshot**: If the software has visual components, place a screenshot after the description; e.g.,
+Well, instead of copying and pasting these functions in a new project every time, it is better to have a package that gathers all these together so that we can install and use them **easily**. This is the goal of this project. :)
 
-<details>
-<summary>Screenshots</summary>
-<br>
-
-> **[?]**
-> Please provide your screenshots here.
-
-|                               Home Page                               |                               Login Page                               |
-| :-------------------------------------------------------------------: | :--------------------------------------------------------------------: |
-| <img src="docs/images/screenshot.png" title="Home Page" width="100%"> | <img src="docs/images/screenshot.png" title="Login Page" width="100%"> |
-
-</details>
-
-### Built With
-
-> **[?]**
-> Please provide the technologies that are used in the project.
-
-**Client:** React, Redux, TailwindCSS
-
-**Server:** Node, Express
 
 ## Getting Started
 
-### Prerequisites
-
-> **[?]**
-> What are the project requirements/dependencies?
-> Describe any dependencies that must be installed for this software to work. This includes programming languages, databases or other storage mechanisms, build tools, frameworks, and so forth. If specific versions of other software are required, or known not to work, call that out.
-
 ### Installation
 
-> **[?]**
-> Describe how to install and get started with the project.
-> Detailed instructions on how to install, configure, and get the project running. This should be frequently tested to ensure reliability. Alternatively, link to a separate [INSTALL](INSTALL.md) document.
+Use pip to install package:
+
+```shell
+pip install pylity --upgrade
+```
 
 ## Usage
 
-> **[?]**
-> How does one go about using it?
-> Provide various use cases and code examples here.
+### Prerequisites
 
-```javascript
-import Component from 'my-project'
+Please note that this package uses [on_rails](https://github.com/payadel/on_rails) package for most functions. `on_rails` is an easy and valuable package for better **error management**. If you are not familiar with this package, you should read its documentation.
 
-function App() {
-    return <Component/>
-}
+### Sample
+
+A set of different functions are grouped into related **classes**.
+Import any class you want, then use the functions.
+For example:
+
+```python
+from pylity import Function
+
+Function.is_func_valid(lambda: None)  # returns True
+
+Function.get_num_of_params(lambda a, b, c: None) \
+    .on_success(lambda num_of_params: print(f"Number of parameters is: {num_of_params}")) \
+    .on_fail(lambda result: print(f"An error occurred:\n{result}"))
 ```
-
-### Documentation
-
-[Documentation](https://linktodocumentation)
-
-## Known issues
-
-Document any known significant shortcomings with the software.
 
 ## CHANGELOG
 
-## Features
-
--
--
+Please see the [CHANGELOG](https://github.com/Payadel/pylity/blob/main/CHANGELOG.md) file.
 
 ## Roadmap
 
@@ -151,30 +81,9 @@ issues).
 
 ## Support
 
-> **[?]**
-> Provide additional ways to contact the project maintainer/maintainers.
-
 Reach out to the maintainer at one of the following places:
 
-- [GitHub issues](https://github.com/Payadel/pylity/issues/new?assignees=&labels=question&template=04_SUPPORT_QUESTION.md&title=support%3A+)
-- Contact options listed on [this GitHub profile](https://github.com/Payadel)
-
-## Used By
-
-This project is used by the following companies:
-
-- Company 1
-- Company 2
-
-## FAQ
-
-#### Question 1
-
-Answer 1
-
-#### Question 2
-
-Answer 2
+- [GitHub issues](https://github.com/Payadel/pylity/issues/new?assignees=&labels=question&template=SUPPORT_QUESTION.md&title=support%3A+)
 
 ## Project assistance
 
@@ -204,7 +113,7 @@ see [the contributors page](https://github.com/Payadel/pylity/contributors).
 
 ## Security
 
-pylity follows good practices of security, but 100% security cannot be assured. pylity is provided **"as
+`pylity` follows good practices of security, but 100% security cannot be assured. `pylity` is provided **"as
 is"** without any **warranty**.
 
 _For more information and to report security issues, please refer to our [security documentation](docs/SECURITY.md)._
@@ -214,15 +123,3 @@ _For more information and to report security issues, please refer to our [securi
 This project is licensed under the **GPLv3**.
 
 See [LICENSE](LICENSE) for more information.
-
-## Acknowledgements
-
-> **[?]**
-> If your work was funded by any organization or institution, acknowledge their support here.
-> In addition, if your work relies on other software libraries, or was inspired by looking at other work, it is appropriate to acknowledge this intellectual debt too.
-
-## Related
-
-Here are some related projects
-
-[Awesome README](https://github.com/matiassingers/awesome-readme)
