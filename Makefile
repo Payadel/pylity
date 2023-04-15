@@ -1,4 +1,4 @@
-.PHONY: help watch-actions release-action changelog-action version version-as update-poetry-dependencies
+.PHONY: help watch-actions release-action changelog-action version version-as update-poetry-dependencies publish-test-action publish-action build-action coverage-action
 
 # Variables
 REF := $(if $(ref),$(ref),"dev")
