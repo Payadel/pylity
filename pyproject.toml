@@ -1,7 +1,7 @@
 # https://python-poetry.org/docs/pyproject/
 [tool.poetry]
 name = "pylity"
-version = "0.0.2"
+version = "0.0.3"
 description = "A collection of utility functions for Python. pylity means Python Utility "
 authors = ["Payadel <payadelteam@gmail.com>"]
 license = "GPLV3"

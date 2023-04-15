@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/Payadel/pylity/compare/v0.0.2...v0.0.3) (2023-04-15)
+
+
+### Documents
+
+* update CONTRIBUTING.md ([1e708cf](https://github.com/Payadel/pylity/commit/1e708cfc7ab5de7cb1fb1cb21acd86f60a3ab13b))
+* update README.md ([1cb1fac](https://github.com/Payadel/pylity/commit/1cb1faca4599dd7c78bb1a9f37451111f62d8ee4))
+
 ### [0.0.2](https://github.com/Payadel/pylity/compare/v0.0.1...v0.0.2) (2023-04-15)
 
 
