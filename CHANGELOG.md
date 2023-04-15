@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/Payadel/pylity/compare/v0.0.4...v0.0.5) (2023-04-15)
+
+
+### Features
+
+* add `collect_files` functions ([0fddd82](https://github.com/Payadel/pylity/commit/0fddd82a85e99d41c478ddb7dd55b39b06d6580c))
+
+### [0.0.4](https://github.com/Payadel/pylity/compare/v0.0.3...v0.0.4) (2023-04-15)
+
+
+### Features
+
+* add Collection.py ([00f9766](https://github.com/Payadel/pylity/commit/00f976648e48ba6d1103569a1b35bd3f337ae76e))
+
 ### [0.0.3](https://github.com/Payadel/pylity/compare/v0.0.2...v0.0.3) (2023-04-15)
 
 

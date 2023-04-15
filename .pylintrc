@@ -5,3 +5,4 @@ disable=
     R0903, # Too few public methods (too-few-public-methods)
     C0301, # Line too long (line-too-long)
     W0703, # Catching too general exception Exception (broad-except)
+    W0108, # Lambda may not be necessary (unnecessary-lambda)
