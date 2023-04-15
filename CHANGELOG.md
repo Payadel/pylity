@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/Payadel/pylity/compare/v0.0.1...v0.0.2) (2023-04-15)
+
+
+### Development: CI/CD, Build, etc
+
+* add coverage.yaml ([6112e20](https://github.com/Payadel/pylity/commit/6112e20bf14d23f24b14a66393668277e412e593))
+
+
+### Fixes
+
+* add `on-rails` as dependency ([3af1d39](https://github.com/Payadel/pylity/commit/3af1d395d9cd88d1fadedb92991f56ff9360cedf))
+
 ### 0.0.1 (2023-04-15)
 
 
