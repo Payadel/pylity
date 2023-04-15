@@ -3,3 +3,5 @@ disable=
     C0114, # missing-module-docstring
     C0103, # Module name doesn't conform to snake_case naming style (invalid-name)
     R0903, # Too few public methods (too-few-public-methods)
+    C0301, # Line too long (line-too-long)
+    W0703, # Catching too general exception Exception (broad-except)
