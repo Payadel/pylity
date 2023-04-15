@@ -1,17 +1,18 @@
 # https://python-poetry.org/docs/pyproject/
 [tool.poetry]
 name = "pylity"
-version = "0.0.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+version = "0.0.2"
+description = "A collection of utility functions for Python. pylity means Python Utility "
+authors = ["Payadel <payadelteam@gmail.com>"]
 license = "GPLV3"
 readme = "README.md"
-repository = "https://github.com/USER_NAME/REPO"
-keywords = []
+repository = "https://github.com/Payadel/pylity"
+keywords = ['utility', 'helpers']
 packages = [{ include = "pylity" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+on-rails = "4.0.1"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -22,9 +23,6 @@ isort = "^5.12.0"
 coverage = "^7.2.2"
 tox = "^4.4.7"
 tox-gh-actions = "^3.1.0"
-
-[tool.poetry.scripts]
-my-script = "pylity.main:say_hello"
 
 [build-system]
 requires = ["poetry-core"]

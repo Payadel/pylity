@@ -1,4 +1,4 @@
-.PHONY: help watch-actions release-action changelog-action version version-as update-poetry-dependencies
+.PHONY: help watch-actions release-action changelog-action version version-as update-poetry-dependencies publish-test-action publish-action build-action coverage-action
 
 # Variables
 REF := $(if $(ref),$(ref),"dev")
@@ -21,6 +21,18 @@ release-action: ## Run release action
 
 update-poetry-dependencies:  ## Update poetry dependencies
 	cat requirements.txt | xargs poetry add
+
+publish-test-action: ## Run publish test action
+	gh workflow run 'Publish to Test.PyPI' --ref $(REF) -f version=$(VERSION)
+
+publish-action: ## Run publish action
+	gh workflow run 'Publish to PyPI' --ref $(REF) -f version=$(VERSION)
+
+build-action: ## Run build action
+	gh workflow run build --ref $(REF)
+
+coverage-action:
+	gh workflow run 'Coverage Report' --ref $(REF)
 
 # Targets for running standard-version commands
 version: ## Get current program version
