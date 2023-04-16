@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/Payadel/pylity/compare/v0.0.5...v0.0.6) (2023-04-16)
+
+
+### Features
+
+* support python 3.8 ([9d482b2](https://github.com/Payadel/pylity/commit/9d482b21ecd055965f776354d502a2dc2040ed11))
+
+
+### Documents
+
+* add coverage.md ([e825446](https://github.com/Payadel/pylity/commit/e82544682118f9e7878469d8f21bf3bdb511997e))
+* add more badges to README.md ([784cdb1](https://github.com/Payadel/pylity/commit/784cdb12619e74cb1de3fd7a929a16e9ba4b629f))
+
 ### [0.0.5](https://github.com/Payadel/pylity/compare/v0.0.4...v0.0.5) (2023-04-15)
 
 
