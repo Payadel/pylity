@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/Payadel/pylity/compare/v0.0.7...v0.0.8) (2023-04-18)
+
+
+### Features
+
+* add `validate_func_params` decorator ([3baf869](https://github.com/Payadel/pylity/commit/3baf8692cf31be52fcb768de8d1d6b3639166bb5))
+
 ### [0.0.7](https://github.com/Payadel/pylity/compare/v0.0.6...v0.0.7) (2023-04-18)
 
 
