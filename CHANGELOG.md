@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/Payadel/pylity/compare/v0.0.6...v0.0.7) (2023-04-18)
+
+
+### Development: CI/CD, Build, etc
+
+* **deps:** bump actions/github-script from 5 to 6 ([4a8bdec](https://github.com/Payadel/pylity/commit/4a8bdec2c942a09b51aea94515ab4db86a831866))
+* **deps:** bump peter-evans/create-pull-request from 4 to 5 ([579ebe4](https://github.com/Payadel/pylity/commit/579ebe4454351b07b6e05fa828793b9288ab1206))
+
 ### [0.0.6](https://github.com/Payadel/pylity/compare/v0.0.5...v0.0.6) (2023-04-16)
 
 
