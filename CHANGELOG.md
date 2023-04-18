@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/Payadel/pylity/compare/v0.0.8...v0.0.9) (2023-04-18)
+
+
+### Features
+
+* allow `validate_func_params` raise exception with set `raise_exception` to `True` ([bf2c561](https://github.com/Payadel/pylity/commit/bf2c561c3ed5acee5870da060704174074062a78))
+
+
+### Documents
+
+* fix PyPI badge ling ([875e09d](https://github.com/Payadel/pylity/commit/875e09d51e5f80475fe64d42c188c02621451a25))
+
 ### [0.0.8](https://github.com/Payadel/pylity/compare/v0.0.7...v0.0.8) (2023-04-18)
 
 
