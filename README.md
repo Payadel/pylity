@@ -18,7 +18,7 @@
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/Payadel/pylity/build.yaml?branch=dev)](https://github.com/Payadel/pylity/actions/workflows/build.yaml?query=branch%3Adev)
 [![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)](coverage.md)
-[![PyPI](https://img.shields.io/pypi/v/on_rails.svg)](https://pypi.org/project/on_rails/)
+[![PyPI](https://img.shields.io/pypi/v/pylity.svg)](https://pypi.org/project/pylity/)
 
 ![GitHub](https://img.shields.io/github/license/Payadel/pylity)
 [![Pull Requests welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/Payadel/pylity/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
