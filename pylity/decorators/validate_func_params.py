@@ -112,6 +112,8 @@ def _validate_args(schema: Optional[Schema], arg_dict: Dict[str, Any], func: Cal
 
     func_schema = schema if schema is not None else Schema(
         {key: value for key, value in arg_dict.items() if key in func.__annotations__})
+    if 'self' in arg_dict and 'self' not in func_schema.schema:
+        arg_dict.pop('self', None)
 
     return try_func(lambda: func_schema.validate(arg_dict)) \
         .on_fail_operate_when(lambda res: _is_exception_type(res, SchemaError),
