@@ -12,7 +12,7 @@ packages = [{ include = "pylity" }]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-on-rails = "4.1.0"
+on-rails = "4.2.0"
 schema = ">=0.7.5"
 
 
