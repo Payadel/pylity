@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/Payadel/pylity/compare/v0.0.10...v0.0.11) (2023-05-25)
+
+
+### Development: CI/CD, Build, etc
+
+* **deps:** bump on-rails from 4.1.0 to 4.2.0 ([59a7bff](https://github.com/Payadel/pylity/commit/59a7bffc7ebec694b678d1dc647d06fb951af672))
+* **deps:** bump payadel/changelog-sv-action from 0.0.1 to 0.0.4 ([3f99898](https://github.com/Payadel/pylity/commit/3f998980af08ef82391bd10b7311d35e0a0de92c))
+* **deps:** bump payadel/changelog-sv-action from 0.0.4 to 0.0.5 ([e918d2c](https://github.com/Payadel/pylity/commit/e918d2c51ed1bc2bfe68c95514489a5ecd05b22c))
+* **deps:** bump Payadel/release-sv-action from 0.2.1 to 0.2.2 ([a13636a](https://github.com/Payadel/pylity/commit/a13636a8002a12b213e5e132a1c507192d2f9258))
+* update release action ([7d1287a](https://github.com/Payadel/pylity/commit/7d1287a251348a28cfb6c26a8e119dd82caad1ef))
+* use `Payadel/inputs` in actions ([2adec4f](https://github.com/Payadel/pylity/commit/2adec4f51afbc8a38d59f323ad99b1b66bdb152b))
+* use changelog.yaml ([8eebc20](https://github.com/Payadel/pylity/commit/8eebc20f2cee13b9044142cc3d83bd0ef46d340c))
+
+
+### Fixes
+
+* fix `on_rails` version ([730af14](https://github.com/Payadel/pylity/commit/730af14dd024af1b155e622a7ba5049d65d564e1))
+
 ### [0.0.10](https://github.com/Payadel/pylity/compare/v0.0.9...v0.0.10) (2023-04-19)
 
 
